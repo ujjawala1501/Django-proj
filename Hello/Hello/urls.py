@@ -19,4 +19,5 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls), #Whenever there is a /admin in front of server port send them to django admin
+    path('',)
 ]
