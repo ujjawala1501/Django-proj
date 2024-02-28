@@ -15,9 +15,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path ,include
 
 urlpatterns = [
     path('admin/', admin.site.urls), #Whenever there is a /admin in front of server port send them to django admin
-    path('',)
+    path('',include('Home.urls'))
 ]
