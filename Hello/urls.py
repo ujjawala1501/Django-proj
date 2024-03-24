@@ -21,3 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls), #Whenever there is a /admin in front of server port send them to django admin
     path('',include('Home.urls'))
 ]
+
+#Testing where it goes
